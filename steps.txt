@@ -1,0 +1,39 @@
+1.) install dependencies
+2.) extract icsosmaster.zip
+3.) open terminal then cd to ics-os
+4.) cd kernel
+5.) cp Makefile.Ubuntu.14.04... Makefile
+6.) cd ..
+7.) cd contrib
+8.) cd hello
+8.5) cp Makefile.Ubuntu.14.04... Makefile
+9.) sudo su
+10.) make clean
+11.) make
+12.) make install
+13.) cd ../.. (ics-os)
+14.) make clean
+15.) make
+16.) make install
+17.) qemu-system-i386 -fda ics-os-floppy.img
+
+system command project then console.c then control_execute
+find, grep, calendar, date, man pages, diff
+
+exercise
+2.) edit console_execute
+	do a palindrome system command 
+	palindrome ana
+	TRUE
+	palindrome car
+	FALSE
+3.) guess.c
+	[0, 100]
+	if rand is 70,
+	50 higher
+	75 lower
+	73 lower
+	65 higher
+	70 got it!
+	
+	ftp://ctan.tug.org/ctan%3A/dviware/umddvi/libcompat/dir.h
